@@ -10,7 +10,7 @@ function initVue() {
         // prendo oggetto music da api
         mounted() {
             axios
-                .get('../partials_php/main.php', {
+                .get('partials_php/main.php', {
                     params: {
                         'genre': this.selectGenre,
                     }
@@ -27,9 +27,8 @@ function initVue() {
         methods: {
             // prendo api filtrata da php
             filteredMusic: function () {
-                console.log(this.selectGenre);
                 axios
-                    .get('../partials_php/main.php', {
+                    .get('partials_php/main.php', {
                         params: {
                             'genre': this.selectGenre,
                         }

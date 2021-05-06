@@ -34,9 +34,6 @@
                             {{option}}
                         </option>
                     </select>
-                    <h1>
-                        ci sono
-                    </h1>
                 </div>
                 <div id="container-musics">
                     <div class="card-music" v-for="music in orderedMusic">
