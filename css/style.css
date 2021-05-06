@@ -1,0 +1,75 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #000;
+}
+
+.container{
+ background-color: #000;
+}
+
+.row{
+ width: 80%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-top: 50px;
+ margin: 0 auto;
+}
+
+.container-option{
+  margin-bottom: 200px;
+}
+
+.container-option>select{
+  padding: 10px;
+}
+
+.select-year>input{
+  padding: 20px;
+}
+
+#container-musics{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-music{
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-music img{
+  width: 200px;
+  height: 200px;
+}
+
+.title{
+  font-size: 25px;
+  color: lightgreen;
+}
+
+.author{
+  font-size: 19px;
+  color: #fff;
+}
+
+.container-info-music{
+  font-size: 16px;
+  color: #fff;
+}
